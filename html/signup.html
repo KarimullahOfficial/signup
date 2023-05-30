@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SingUpform</title>
+    <title>Signup</title>
   </head>
   <link rel="stylesheet" type="text/css" href="../css/all.min.css" />
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
@@ -21,25 +21,56 @@
             <img src="../images/logo.png" class="img-fluid" />
           </div>
           <form class="rounded bg-white shadow p-5">
-            <h3 class="text-dark fw-bolder fs-4 mb-2">Login</h3>
+            <h3 class="text-dark fw-bolder fs-4 mb-2">Create Account</h3>
             <div class="fw-normal text-muted mb-4">
-              New Here?
+              if you have account singin
               <a
-                href="signup.html"
+                href="index.html"
                 class="text-primary fw-bold text-decoration-none"
               >
-                Create Account</a
+                Singinhere?</a
               >
+              <a href="#" class="btn btn-light logn-with w-100 mt-4">
+                <img
+                  src="../images/google-icon.svg"
+                  class="img-fluid me-3"
+                />Continue With Google
+              </a>
             </div>
             <div class="input-group flex-nowrap">
               <span class="input-group-text" id="addon-wrapping"
-                ><i class="fa-solid fa-envelope"></i
-              ></span>
+                ><i class="fa-solid fa-user"></i>
+              </span>
               <input
                 type="text"
                 class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+            <div class="input-group flex-nowrap mt-3">
+              <span class="input-group-text" id="addon-wrapping">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              <input
+                type="email"
+                class="form-control"
                 placeholder="Email"
                 aria-label="Email"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+
+            <div class="input-group flex-nowrap mt-3">
+              <span class="input-group-text" id="addon-wrapping">
+                <i class="fa-solid fa-calendar"></i>
+              </span>
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Date pf Birth"
+                aria-label="Date"
                 aria-describedby="addon-wrapping"
               />
             </div>
@@ -48,48 +79,31 @@
                 ><i class="fa-solid fa-lock"></i
               ></span>
               <input
-                type="text"
+                type="password"
                 class="form-control"
-                placeholder="Password"
+                placeholder="EnterPassword"
                 aria-label="Password"
                 aria-describedby="addon-wrapping"
               />
             </div>
-            <div class="mt-2 text-end">
-              <a
-                href="forget.html"
-                class="text-primary fw-bold text-decoration-none"
-              >
-                Forgetpassword?</a
-              >
+            <div class="input-group flex-nowrap mt-3">
+              <span class="input-group-text" id="addon-wrapping"
+                ><i class="fa-solid fa-lock"></i
+              ></span>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Confirm Password"
+                aria-label="Password"
+                aria-describedby="addon-wrapping"
+              />
             </div>
-            <button type="submit" class="btn-primary submit-btn w-100 my-4">
-              Continue
-            </button>
-            <div class="text-muted text-center text-uppercase mb-3">OR</div>
-            <a href="#" class="btn btn-light logn-with w-100 mb-3">
-              <img
-                src="../images/google-icon.svg"
-                class="img-fluid me-3"
-              />Continue With Google
-            </a>
-            <a href="#" class="btn btn-light logn-with w-100 mb-3">
-              <img
-                src="../images/facebook-icon.svg"
-                class="img-fluid me-3"
-              />Continue With Facebook
-            </a>
-
-            <a href="#" class="btn btn-light logn-with w-100 mb-3">
-              <img
-                src="../images/linkedin-icon.svg"
-                class="img-fluid me-3"
-              />Continue With Linkedin
-            </a>
+            <div class="btn btn-primary mt-3 text-center">Submit</div>
           </form>
         </div>
       </div>
     </section>
+
     <script type="text/javascript" src="../js/main.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/font.js"></script>
